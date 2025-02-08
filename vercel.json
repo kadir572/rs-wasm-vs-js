@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bun run build",
+  "buildCommand": "curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh && bun run build",
   "devCommand": "bun run dev",
-  "installCommand": "bun i"
+  "installCommand": "bun install"
 }
